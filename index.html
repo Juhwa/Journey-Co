@@ -20,46 +20,54 @@
   <header>
     <nav>
       <div class="nav-container">
-          <a href="#" class="logo">Journey & Co.</a>
-          <span class="menu-toggle">&#9776;</span>
+          <a href="#" class="logo"><img src="img/logo_journeynco.png"></a>
+          <span class="menu-toggle" onclick="toggleMenu()">&#9776;</span>
           <ul class="nav-links">
               <li><a href="#">Home</a></li>
               <li><a href="#">About</a></li>
-              <li><a href="#">Services</a></li>
+              <!--<li class="dropdown">
+                  <a href="#" onclick="toggleDropdown(event)">Services ▼</a>
+                  <ul class="dropdown-menu">
+                      <li><a href="#">Web Design</a></li>
+                      <li><a href="#">Graphic Design</a></li>
+                      <li><a href="#">Branding</a></li>
+                  </ul>
+              </li>-->
               <li><a href="#">Portfolio</a></li>
               <li><a href="#">Contact</a></li>
+              <li><a class="button_n" href="mailto:journey.co.ca@gmail.com" target="_blank">Inquire Today</a></li>
           </ul>
       </div>
-  </nav>
+     </nav>
   </header>
 
-   <section class="home_intro">
-   </section>
+
+  <section class="header">
+    <div class="title_header">
+      <h1><span style="color: #D7FF00;">JOIN US ON A JOURNEY</span> Toward Achieving <span style="color: #D7FF00;">BUSINESS SUCCESS</span></h1>
+      <p style="margin-top: -20px;">At Journey & Co., we’re here to help you grow your business. Whether you need a stunning website or powerful branding, we are dedicated to providing customized solutions that align with your goals. </p>
+      <a class="button" href="mailto:journey.co.ca@gmail.com" target="_blank">Work with me</a>
+    </div>
+    <div class="empty"></div>
+  </section>
 
    <main> 
-    <!--websites-->
-    <section style="margin-top: 4%; margin-bottom: 20px;" id="mobile">
 
-    <h2 class="h3_social">Websites</h2>
-
-    <div class="contents" style="margin-top: 20px;">
-      <div class="list_pic">
-        <a href="cleaning.html"><img src="img/clean.png"></a>
-        <h4>Cleaning Service Website</h4>
-        <p class="info">Website built with WordPress<br> WPBakery page builder</p>
-        <a href="cleaning.html" class="btn">View Project ></a>
-       </div>
-        <div class="list_pic">
-         <a href="hotel.html"><img src="img/hotel.png"></a>
-         <h4>Luxury Hotel Website</h4>
-         <p class="info">Website built with WordPress<br> WPBakery page builder</p>
-         <a href="hotel.html" class="btn">View Project ></a>
-        </div>
-    </div>
-
-   </section>
    <!--websites-->
 
   </main>
+
+<script>
+  function toggleMenu() {
+      const navLinks = document.querySelector('.nav-links');
+      navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+  }
+
+  function toggleDropdown(event) {
+      event.preventDefault(); // Prevent link from redirecting
+      const dropdownMenu = event.target.nextElementSibling;
+      dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+  }
+</script>
 </body>
 </html>

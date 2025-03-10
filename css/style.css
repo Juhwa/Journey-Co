@@ -127,6 +127,38 @@ nav {
     color: white;
     cursor: pointer;
 }
+/*nav*/
+
+.header{
+    background: url(../img/headerbanner_webdesign.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    color: #fff;
+    padding: 100px 60px;
+}
+
+.title_header{
+    width: 60%;
+}
+
+.empty{
+    width: 40%;
+}
+
+li{
+    list-style: none;
+    padding: 8px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #435971;
+    text-transform: uppercase;
+    font-size: 16px;
+    cursor: pointer;
+}
+
 
 @media (max-width: 768px) {
     .nav-links {
@@ -159,41 +191,19 @@ nav {
     }
 
     .header{
+        display: block;
         padding: 40px 30px !important;
+    }
+
+    .title_header{
+        width: 100%;
+    }
+    
+    .empty{
+       display: none;
     }
 
     main{
         padding: 0 30px;
     }
-}
-/*nav*/
-
-.header{
-    background: url(../img/headerbanner_webdesign.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    display: flex;
-    color: #fff;
-    padding: 100px 60px;
-}
-
-.title_header{
-    width: 60%;
-}
-
-.empty{
-    width: 40%;
-}
-
-li{
-    list-style: none;
-    padding: 8px 20px;
-}
-
-a{
-    text-decoration: none;
-    color: #435971;
-    text-transform: uppercase;
-    font-size: 16px;
-    cursor: pointer;
 }

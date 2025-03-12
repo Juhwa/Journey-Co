@@ -14,6 +14,11 @@ h1{
     line-height: 1.4;
 }
 
+h2{
+    font-size: 30px;
+    font-weight: 400;
+}
+
 p{
     font-size: 18px;
     font-weight: 300;
@@ -138,11 +143,20 @@ nav {
     padding: 100px 60px;
 }
 
+#question-container{
+    background-color: none !important;
+}
+
+.form{
+    display: flex;
+    padding: 50px 60px;
+}
+
 .title_header{
     width: 60%;
 }
 
-.empty{
+.empty, .form_text{
     width: 40%;
 }
 
@@ -157,6 +171,11 @@ a{
     text-transform: uppercase;
     font-size: 16px;
     cursor: pointer;
+}
+
+footer{
+    height: 50px;
+    background-color: #008000;
 }
 
 
@@ -190,12 +209,14 @@ a{
         padding: 5px 30px;
     }
 
-    .header{
+    .header, .form{
+        display: flex;
+        padding: 100px 60px;
         display: block;
         padding: 40px 30px !important;
     }
 
-    .title_header{
+    .title_header, .form_text{
         width: 100%;
     }
     

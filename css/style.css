@@ -24,6 +24,36 @@ p{
     font-weight: 300;
 }
 
+/*contact form*/
+.contact-form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+}
+input, textarea {
+    width: 95%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #008000;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #008000;
+}
+/*contact form*/
+
 .button {
     background-color: #D7FF00;
     border: none;
@@ -313,6 +343,19 @@ footer{
     .services_home{
         width: 100%;
         padding: 0;
+    }
+
+    input, textarea {
+        width: 85%;
+        padding: 20px;
+        margin: 10px 0;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        /*max-width: 380px;*/
+    }
+
+    form button {
+        width: 95%;
     }
     
     .empty{

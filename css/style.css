@@ -186,6 +186,43 @@ nav {
     padding: 0 40px;
 }
 
+.services{
+    display: flex;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+
+.services_home{
+    width: 33.33%;
+    padding: 0;
+}
+
+.web{
+    padding: 40px 30px;
+    background-color: #ff;
+}
+
+.graphic{
+    padding: 40px 30px;
+    background-color: #F3F3F3;
+}
+
+.social{
+    padding: 40px 30px;
+    background-color: #E9E9E9;
+}
+
+.web h3, .graphic h3, .social h3{
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.web p, .graphic p, .social p{
+    font-size: 16px;
+}
+
 .title_header{
     width: 60%;
 }
@@ -265,6 +302,15 @@ footer{
     }
     
     .layout{
+        width: 100%;
+        padding: 0;
+    }
+
+    .services{
+        display: block;
+    }
+    
+    .services_home{
         width: 100%;
         padding: 0;
     }

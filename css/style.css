@@ -38,6 +38,7 @@ input, textarea {
     margin: 10px 0;
     border: 1px solid #ccc;
     border-radius: 5px;
+    font-family: Poppins;
 }
 
 form button {
@@ -48,6 +49,7 @@ form button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    font-family: Poppins;
 }
 button:hover {
     background-color: #008000;

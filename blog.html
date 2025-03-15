@@ -52,7 +52,18 @@
       <a class="button_blog" href="how-to-choose-right-web-designer.html">Read more</a>
     </div>
   </section>
-
+<script>
+    function toggleMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
+    }
+  
+    function toggleDropdown(event) {
+        event.preventDefault(); // Prevent link from redirecting
+        const dropdownMenu = event.target.nextElementSibling;
+        dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
    <main> 
 
    <!--websites-->

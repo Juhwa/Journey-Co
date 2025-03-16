@@ -208,13 +208,19 @@ nav {
     background-color: none !important;
 }
 
-.form, .blog_layout{
+.blog_layout{
     display: flex;
     padding: 50px 60px;
 }
 
+.form{
+    background: #008000;
+    display: flex;
+    padding: 0 60px 0 0;
+}
+
 .contact{
-    padding: 80px 60px 40px 60px;
+    padding: 50px 60px 40px 60px;
 }
 
 .layout{
@@ -260,11 +266,20 @@ nav {
 }
 
 .title_header{
-    width: 60%;
+    width: 80%;
+    padding: 40px 30px 80px 30px;
 }
 
-.empty, .form_text{
+.empty{
     width: 40%;
+}
+
+.form_text{
+    width: 20%;
+    background: url(../img/2025_mar_webdesigner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 
 .website{
@@ -340,17 +355,29 @@ footer{
         padding: 5px 30px;
     }
 
-    .header, .form, .blog_layout{
+    .header, .blog_layout{
         display: block;
         padding: 40px 30px;
+    }
+
+    .form{
+        background: #008000;
+        display: flex;
+        padding: 0 30px 20px 30px;
+        display: block;
     }
 
     .blog_detail{
         padding: 30px;
     }
 
-    .title_header, .form_text{
+    .form_text{
         width: 100%;
+    }
+
+    .title_header{
+        width: 100%;
+        padding: 20px 30px 50px 30px;
     }
     
     .layout{

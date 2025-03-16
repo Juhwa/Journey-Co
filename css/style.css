@@ -266,7 +266,11 @@ nav {
 }
 
 .title_header{
-    width: 80%;
+    width: 50%;
+}
+
+.blog_home{
+    width: 50%;
     padding: 40px 30px 80px 30px;
 }
 
@@ -376,6 +380,10 @@ footer{
     }
 
     .title_header{
+        width: 100%;
+    }
+
+    .blog_home{
         width: 100%;
         padding: 20px 30px 50px 30px;
     }

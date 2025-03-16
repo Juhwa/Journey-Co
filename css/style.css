@@ -334,10 +334,10 @@ footer{
         display: none;
         flex-direction: column;
         position: absolute;
-        top: 60px;
+        top: 52px;
         left: 0;
         width: 100%;
-        background: #333;
+        background: #008000;
     }
 
     .nav-links li {

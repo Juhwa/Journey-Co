@@ -20,20 +20,7 @@
 </head>
 
 <body class="h">
-  <header>
-    <nav>
-      <div class="nav-container">
-          <a href="index.html" class="logo"><img src="img/logo_journeynco.png"></a>
-          <span class="menu-toggle" onclick="toggleMenu()">&#9776;</span>
-          <ul class="nav-links">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a class="button_n" href="mailto:journey.co.ca@gmail.com" target="_blank">Inquire Today</a></li>
-              <li><a href="https://www.facebook.com/profile.php?id=61566027023046" target="_blank"><img src="img/facebook.png" style="width: 30px;"></a></li>
-          </ul>
-      </div>
-     </nav>
-  </header>
+  <div id="header"></div>
 
   <section class="blog_detail">
     <article>
@@ -64,9 +51,11 @@
     <h2>Final Thoughts</h2>
     <p>As business owners, we should always strive to provide quality work, but we must also accept that not everyone will be satisfied, no matter how hard we try. The key is to learn from constructive criticism, ignore unreasonable complaints, and continue providing excellent services to those who truly value our work.</p>
     </article>
-
   </section>
 
+<div id="footer"></div>
+  <script src="script.js"></script>
+  
   <script>
     function toggleMenu() {
         const navLinks = document.querySelector('.nav-links');
@@ -79,11 +68,6 @@
         dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
     }
   </script>
-   <main> 
-
-   <!--websites-->
-
-  </main>
 
 </body>
 </html>

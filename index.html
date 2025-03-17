@@ -21,31 +21,7 @@
 </head>
 
 <body class="h">
-  <header>
-    <nav>
-      <div class="nav-container">
-          <a href="index.html" class="logo"><img src="img/logo_journeynco.png"></a>
-          <span class="menu-toggle" onclick="toggleMenu()">&#9776;</span>
-          <ul class="nav-links">
-              <li><a href="index.html">Home</a></li>
-              <!--<li><a href="#">About</a></li>
-              <li class="dropdown">
-                  <a href="#" onclick="toggleDropdown(event)">Services ▼</a>
-                  <ul class="dropdown-menu">
-                      <li><a href="#">Web Design</a></li>
-                      <li><a href="#">Graphic Design</a></li>
-                      <li><a href="#">Branding</a></li>
-                  </ul>
-              </li>-->
-              <!--<li><a href="#">Portfolio</a></li>-->
-              <li><a href="blog.html">Blog</a></li>
-              <li><a class="button_n" href="mailto:journey.co.ca@gmail.com" target="_blank">Inquire Today</a></li>
-              <li><a href="https://www.facebook.com/profile.php?id=61566027023046" target="_blank"><img src="img/facebook.png" style="width: 30px;"></a></li>
-          </ul>
-      </div>
-     </nav>
-  </header>
-
+  <div id="header"></div>
 
   <section class="header">
     <div class="title_header">
@@ -107,12 +83,11 @@
       <div style="width:100%;height:500px;" data-fillout-id="1ECrPmdRLKus" data-fillout-embed-type="standard" data-fillout-inherit-parameters data-fillout-dynamic-resize></div><script src="https://server.fillout.com/embed/v1/"></script></div>
   </section>
 
-  <footer></footer>
-   <main> 
+  <div id="footer"></div>
 
-   <!--websites-->
+  <script src="script.js"></script>
 
-  </main>
+
   <script>
     function toggleMenu() {
         const navLinks = document.querySelector('.nav-links');

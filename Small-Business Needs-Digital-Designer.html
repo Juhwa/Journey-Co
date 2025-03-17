@@ -20,20 +20,7 @@
 </head>
 
 <body class="h">
-  <header>
-    <nav>
-      <div class="nav-container">
-          <a href="index.html" class="logo"><img src="img/logo_journeynco.png"></a>
-          <span class="menu-toggle" onclick="toggleMenu()">&#9776;</span>
-          <ul class="nav-links">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="blog.html">Blog</a></li>
-              <li><a class="button_n" href="mailto:journey.co.ca@gmail.com" target="_blank">Inquire Today</a></li>
-              <li><a href="https://www.facebook.com/profile.php?id=61566027023046" target="_blank"><img src="img/facebook.png" style="width: 30px;"></a></li>
-          </ul>
-      </div>
-     </nav>
-  </header>
+  <div id="header"></div>
 
   <section class="blog_detail">
     <article>
@@ -82,10 +69,11 @@
             <p style="font-weight: 500;">Contact us to get the best deals and great work with us!<br>
               <a class="button_n" href="mailto:journey.co.ca@gmail.com" target="_blank" style="margin-top: 30px;">Inquire Today</a>
             </p>
-
     </article>
-
   </section>
+
+  <div id="footer"></div>
+  <script src="script.js"></script>
 
   <script>
     function toggleMenu() {
@@ -99,11 +87,6 @@
         dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
     }
   </script>
-   <main> 
-
-   <!--websites-->
-
-  </main>
 
 </body>
 </html>

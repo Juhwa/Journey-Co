@@ -325,13 +325,13 @@ a{
 
 footer{
     height: 50px;
-    background-color: #008000;
+    background-color: #002F00;
     color: #fff;
 }
 
 .footer_container{
     display: flex;
-    background-color: #008000;
+    background-color: #002F00;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -348,7 +348,7 @@ footer{
 }
 
 .copywrite{
-    background-color: #008000;
+    background-color: #002F00;
     color: #fff;
     text-align: center;
     padding: 20px 60px 20px 60px;

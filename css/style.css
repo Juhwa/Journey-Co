@@ -286,6 +286,14 @@ nav {
     width: 100%;
 }
 
+.seo{
+    background: url(../img/seo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+}
+
 .website{
     background: url(../img/blogwebsite.jpg);
     background-size: cover;

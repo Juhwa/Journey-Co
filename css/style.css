@@ -241,17 +241,17 @@ nav {
 }
 
 .web{
-    padding: 50px 30px;
+    padding: 60px 30px;
     background-color: #ff;
 }
 
 .graphic{
-    padding: 50px 30px;
+    padding: 60px 30px;
     background-color: #F3F3F3;
 }
 
 .social{
-    padding: 50px 30px;
+    padding: 60px 30px;
     background-color: #E9E9E9;
 }
 
@@ -353,8 +353,6 @@ footer{
 
 .footer_right{
     width: 70%;
-    padding-right: 60px !important;
-    text-align: right;
 }
 
 .copywrite{
@@ -443,6 +441,10 @@ footer{
         padding: 0;
     }
 
+    .web, .graphic,  .social{
+        padding: 40px 30px;
+    }
+
     input, textarea {
         width: 85%;
         padding: 20px;
@@ -474,8 +476,6 @@ footer{
     
     .footer_right{
         width: 100%;
-        padding-right: 0;
-        text-align: center;
     }
 
     .copywrite{

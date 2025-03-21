@@ -19,10 +19,72 @@ h2{
     font-weight: 400;
 }
 
+h3{
+    font-size: 24px; 
+    font-weight: 400;
+    color: #008000;
+}
+
+h4{
+    font-size: 34px; 
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
 p{
     font-size: 18px;
     font-weight: 300;
 }
+
+
+/*subs page*/
+.sub{
+    display: flex;
+    padding: 40px 60px;
+    background: url(../img/bg_webdesign.jpg);
+}
+
+.sub div{
+    width: 50%;
+}
+
+.sub div img{
+    width: 90%;
+    padding-left: 80px;
+}
+
+.sub2{
+    display: flex;
+    padding: 60px 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub2 div{
+    width: 50%;
+}
+
+.sub2 div img{
+    width: 65%;
+    padding-right: 80px;
+}
+
+.sub3{
+    display: flex;
+    padding: 60px 0 60px 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub3 div{
+    width: 50%;
+}
+
+.sub3 img{
+    width: 75%;
+    padding-left: 25%;
+}
+/*subs page*/
 
 /*contact form*/
 .contact-form {
@@ -397,6 +459,28 @@ footer{
     nav {
         padding: 5px 30px;
     }
+    
+    /*subs page*/
+    .sub, .sub3{
+        display: block;
+        padding: 40px 30px;
+    }
+
+    .sub2{
+        flex-direction: column;
+        padding: 40px 30px;
+        flex-direction: column-reverse;
+    }
+
+    .sub div, .sub2 div, .sub3 div{
+        width: 100%;
+    }
+
+    .sub div img, .sub2 div img, .sub3 div img{
+        width: 100%;
+        padding-left: 0;
+    }
+     /*subs page*/
 
     .header, .blog_layout{
         display: block;

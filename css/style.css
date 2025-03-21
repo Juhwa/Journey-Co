@@ -80,8 +80,8 @@ p{
     background-color: #F3F3F3;
     display: flex;
     padding: 20px 30px 50px 30px;
-    align-items: center;
-    justify-content: center;
+    /*align-items: center;
+    justify-content: center;*/
 }
 
 .sub3 div{

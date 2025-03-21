@@ -76,8 +76,21 @@ p{
     justify-content: center;
 }
 
+.sub4{
+    background-color: #F3F3F3;
+    display: flex;
+    padding: 20px 30px 50px 30px;
+    align-items: center;
+    justify-content: center;
+}
+
 .sub3 div{
     width: 50%;
+}
+
+.sub4 div{
+    width: 50%;
+    padding: 0 30px 0 30px;
 }
 
 .sub3 img{
@@ -85,10 +98,11 @@ p{
     padding-left: 25%;
 }
 
+/*
 .title{
     color: #005200;
     padding-left: 60px;
-}
+}*/
 /*subs page*/
 
 /*contact form*/
@@ -466,6 +480,11 @@ footer{
         padding: 20px 30px;
     }
 
+    .sub4{
+        display: block;
+        padding: 20px 30px 40px 30px;
+    }
+
     .sub2{
         flex-direction: column;
         padding: 40px 30px;
@@ -476,14 +495,18 @@ footer{
         width: 100%;
     }
     
+    .sub4 div{
+        width: 100%;
+        padding: 0;
+    }
 
     .sub div img, .sub2 div img, .sub3 div img{
         width: 100%;
         padding-left: 0;
     }
-
+    
     .title{
-        padding-left: 30px;
+        display: none;
     }
      /*subs page*/
 

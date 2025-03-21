@@ -84,6 +84,11 @@ p{
     width: 75%;
     padding-left: 25%;
 }
+
+.title{
+    color: #005200;
+    padding-left: 60px;
+}
 /*subs page*/
 
 /*contact form*/
@@ -458,7 +463,7 @@ footer{
     /*subs page*/
     .sub, .sub3{
         display: block;
-        padding: 40px 30px;
+        padding: 20px 30px;
     }
 
     .sub2{
@@ -470,10 +475,15 @@ footer{
     .sub div, .sub2 div, .sub3 div{
         width: 100%;
     }
+    
 
     .sub div img, .sub2 div img, .sub3 div img{
         width: 100%;
         padding-left: 0;
+    }
+
+    .title{
+        padding-left: 30px;
     }
      /*subs page*/
 

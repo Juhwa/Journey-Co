@@ -40,7 +40,7 @@ p{
 /*subs page*/
 .sub{
     display: flex;
-    padding: 40px 60px;
+    padding: 60px 60px;
     background: url(../img/bg_webdesign.jpg);
 }
 

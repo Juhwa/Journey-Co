@@ -42,6 +42,8 @@ p{
     display: flex;
     padding: 60px 60px;
     background: url(../img/bg_webdesign.jpg);
+    align-items: center;
+    justify-content: center;
 }
 
 .sub div{

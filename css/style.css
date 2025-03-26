@@ -369,6 +369,14 @@ nav {
     width: 100%;
 }
 
+.trend{
+    background: url(../img/lessismore.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 100%;
+}
+
 .seo{
     background: url(../img/seo.jpg);
     background-size: cover;

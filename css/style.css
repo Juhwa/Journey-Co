@@ -199,7 +199,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    width: 80%;
+    width: 100%;
     padding: 1.3rem 10%;
     display: flex;
     justify-content: space-between;

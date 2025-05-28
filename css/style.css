@@ -199,12 +199,13 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    width: 80%;
+    width: 90%;
     padding: 1.3rem 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+    background: #008000;
 }
 
 header::before{
@@ -214,7 +215,6 @@ header::before{
     height: 100%;
     top: 0;
     left: 0;
-    background: #008000;
     z-index: -1;
 }
 

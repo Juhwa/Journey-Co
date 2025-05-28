@@ -229,10 +229,6 @@ header::after{
     transition: .5s;
 }
 
-.logo{
-    font-size: 2rem;
-}
-
 .icons{
     font-size: 2.8rem;
     color: #ffffff;
@@ -274,6 +270,11 @@ nav ul{
 @media screen and (max-width: 768px) {
     .icons{
         display: inline-flex;
+        color: #fff !important;
+    }
+
+    .logo img{
+    width: 180px;
     }
 
     #check:checked~.icons #menu-open{
@@ -286,6 +287,7 @@ nav ul{
 
     #check:checked~.icons #menu-close{
         display: block;
+        color: #fff !important;
     }
 
     nav{

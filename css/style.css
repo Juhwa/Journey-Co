@@ -235,7 +235,7 @@ header::after{
 
 .icons{
     font-size: 2.8rem;
-    color: #fff;
+    color: #ffffff;
     cursor: pointer;
     display: none;
     position: absolute;
@@ -258,11 +258,6 @@ nav ul{
     display: flex;
     list-style: none;
 }
-/*
-nav li{
-    height: 50px;
-}
-*/
 
 #check{
     display: none;
@@ -312,7 +307,7 @@ nav li{
 
     #check:checked~nav{
         display: block;
-        height: 17.7rem;
+        height: 23rem;
     }
 
     nav a{

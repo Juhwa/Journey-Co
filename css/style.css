@@ -395,12 +395,6 @@ nav ul{
     padding: 50px 60px;
 }
 
-.form{
-    background: #008000;
-    display: flex;
-    padding: 0 60px 0 0;
-}
-
 .contact{
     padding: 50px 60px 40px 60px;
 }
@@ -451,21 +445,21 @@ nav ul{
     width: 50%;
 }
 
-.blog_home{
-    width: 50%;
-    padding: 40px 30px 80px 30px;
-}
-
 .empty{
     width: 40%;
 }
 
-.form_text{
-    width: 20%;
-    background: url(../img/blog_home.jpg);
-    background-size: cover;
+.blog_home_pic{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(../img/blog_home.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     width: 100%;
+    height: 70vh;
+}
+
+.blog_home_link{
+    text-align: center;
+    padding: 150px 20%;
 }
 
 .trend{
@@ -567,6 +561,15 @@ footer{
         display: none;
         width: 100%;
         background: #444;
+    }
+
+    .blog_home_pic{
+        height: 60vh;
+    }
+
+    .blog_home_link{
+        text-align: center;
+        padding: 30px 7%;
     }
     
     /*subs page*/

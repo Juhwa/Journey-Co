@@ -235,7 +235,7 @@ header::after{
 
 .icons{
     font-size: 2.8rem;
-    color: #000;
+    color: #fff;
     cursor: pointer;
     display: none;
     position: absolute;

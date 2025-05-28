@@ -270,7 +270,6 @@ nav ul{
 @media screen and (max-width: 768px) {
     .icons{
         display: inline-flex;
-        color: #fff !important;
     }
 
     .logo img{
@@ -287,7 +286,6 @@ nav ul{
 
     #check:checked~.icons #menu-close{
         display: block;
-        color: #fff !important;
     }
 
     nav{
@@ -304,8 +302,11 @@ nav ul{
     }
 
     nav ul{
-        display: block;
-        margin-left: -20px;
+        display: block;    
+    }
+
+    nav li{
+       margin-left: -20px;
     }
 
     #check:checked~nav{

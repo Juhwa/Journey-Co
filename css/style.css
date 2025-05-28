@@ -195,39 +195,138 @@ button:hover {
     width: 220px;
 }
 
-nav {
-    background: #008000;
-    padding: 0 60px;
-}
-
-.nav-container {
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 1.3rem 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: relative;
+    z-index: 100;
 }
 
-.nav-links {
-    list-style: none;
-    display: flex;
+header::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #008000;
+    z-index: -1;
 }
 
-.nav-links li {
-    margin: 0 15px;
-    position: relative;
+header::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: #008000;
+    transition: .5s;
 }
 
-.nav-links a {
+.logo{
+    font-size: 2rem;
+}
+
+.icons{
+    font-size: 2.8rem;
+    color: #000;
+    cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 5%;
+}
+
+nav a{
+    font-size: 1.15rem;
+    height: 100%;
+    margin-left: 2.5rem;
     text-decoration: none;
-    color: white;
-    font-size: 16px;
-    transition: 0.3s;
-    display: block;
-    padding: 10px;
+    color:  #fff;
 }
 
-.nav-links a:hover {
+.nav a:hover {
     color: #D7FF00;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+/*
+nav li{
+    height: 50px;
+}
+*/
+
+#check{
+    display: none;
+}
+
+
+/*break points*/
+@media (max-with: 992px){
+    header{
+        padding: 1rem 5%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .icons{
+        display: inline-flex;
+    }
+
+    #check:checked~.icons #menu-open{
+        display: none;
+    }
+
+    .icons #menu-close{
+        display: none;
+    }
+
+    #check:checked~.icons #menu-close{
+        display: block;
+    }
+
+    nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: #008000;
+        backdrop-filter: blur(50px);
+        box-shadow: 1 .5rem 1rem rgba(0,0,0,.1);
+        overflow: hidden;
+        transition: .3s ease;
+    }
+
+    nav ul{
+        display: block;
+    }
+
+    #check:checked~nav{
+        display: block;
+        height: 17.7rem;
+    }
+
+    nav a{
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+        transform: translateY(-50px);
+        transition: .3s ease;
+    }
+
+    #check:checked~nav a{
+        transform: translateY(0);
+    }
 }
 
 /* Dropdown Menu */

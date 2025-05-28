@@ -305,6 +305,7 @@ nav ul{
 
     nav ul{
         display: block;
+        margin-left: -20px;
     }
 
     #check:checked~nav{
@@ -558,24 +559,6 @@ footer{
 
 
 @media (max-width: 768px) {
-    .nav-links {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 51px;
-        left: 0;
-        width: 100%;
-        margin-left: -20px;
-        background: #008000;
-    }
-
-    .nav-links li {
-        text-align: center;
-    }
-
-    .menu-toggle {
-        display: block;
-    }
 
     .dropdown-menu {
         position: static;
@@ -583,20 +566,16 @@ footer{
         width: 100%;
         background: #444;
     }
-
-    nav {
-        padding: 0;
-    }
     
     /*subs page*/
     .sub, .sub3{
         display: block;
-        padding: 20px 30px;
+        padding: 90px 30px;
     }
 
     .sub4{
         display: block;
-        padding: 20px 30px 40px 30px;
+        padding: 90px 30px 40px 30px;
     }
 
     .sub2{
@@ -626,7 +605,7 @@ footer{
 
     .header, .blog_layout{
         display: block;
-        padding: 40px 30px;
+        padding: 90px 30px;
     }
 
     .form{

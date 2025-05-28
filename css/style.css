@@ -375,10 +375,10 @@ nav ul{
 }
 
 .blog{
-    background-color: #dbff79;
+    background-color: #6F6F6F;
     text-align: center;
-    padding: 10px 60px;
-    color: #008000;
+    padding: 140px 60px 40px 60px;
+    color: #eaeaea;
 }
 
 #question-container{

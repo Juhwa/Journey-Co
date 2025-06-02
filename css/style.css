@@ -373,7 +373,7 @@ nav ul{
 .header{
     background: url(../img/headerbanner_webdesign.jpg);
     background-size: cover;
-    background-position: right;
+    background-position: top right 5px;
     background-repeat: no-repeat;
     display: flex;
     color: #fff;

@@ -10,9 +10,9 @@ main{
 }
 
 h1{
-    font-size: 5.9rem;
-    line-height: 6.49rem;
-    font-weight: 500;
+    font-size: 4rem;
+    line-height: 4.5rem;
+    font-weight: 600;
 }
 
 h2{
@@ -34,7 +34,7 @@ h4{
 
 p{
     font-size: 18px;
-    font-weight: 300;
+    font-weight: 200;
     line-height: 1.7;
 }
 

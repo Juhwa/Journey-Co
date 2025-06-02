@@ -37,6 +37,21 @@ p{
     line-height: 1.8rem;
 }
 
+.services_home{
+    display: flex;
+    padding: 140px 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+.services_home div{
+    width: 50%;
+}
+
+.services_home div img{
+    width: 90%;
+    padding-left: 80px;
+}
 
 /*subs page*/
 .sub{
@@ -575,7 +590,7 @@ footer{
     }
     
     /*subs page*/
-    .sub, .sub3{
+    .sub, .sub3, .services_home{
         display: block;
         padding: 90px 30px;
     }
@@ -600,7 +615,7 @@ footer{
         padding: 0;
     }
 
-    .sub div img, .sub2 div img, .sub3 div img{
+    .sub div img, .sub2 div img, .sub3 div img, .services_home div img{
         width: 100%;
         padding-left: 0;
     }

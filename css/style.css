@@ -615,7 +615,7 @@ footer{
         padding: 0;
     }
 
-    .sub div img, .sub2 div img, .sub3 div img, portfolio_home div img{
+    .sub div img, .sub2 div img, .sub3 div img, .portfolio_home div img{
         width: 100%;
         padding-left: 0;
     }

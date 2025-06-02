@@ -451,7 +451,7 @@ nav ul{
 }
 
 .blog_home_pic{
-    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.7)),url(../img/landing_home.jpg);
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.7)),url(../img/landing_home.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

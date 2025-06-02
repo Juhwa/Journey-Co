@@ -432,8 +432,8 @@ nav ul{
 }
 
 .web h3, .graphic h3, .social h3{
-    font-size: 22px;
-    font-weight: 500;
+    font-size: 1.4rem; 
+    font-weight: 600;
     text-transform: uppercase;
 }
 

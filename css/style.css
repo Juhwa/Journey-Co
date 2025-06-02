@@ -505,6 +505,7 @@ nav ul{
 .sbusiness{
     background: url(../img/smallbusiness.jpg);
     background-size: cover;
+    background-position: right;
     background-repeat: no-repeat;
     height: 300px;
     width: 100%;

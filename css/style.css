@@ -470,12 +470,11 @@ nav ul{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 70vh;
 }
 
 .blog_home_link{
     text-align: center;
-    padding: 150px 20%;
+    padding: 130px 20%;
 }
 
 .trend{

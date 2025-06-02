@@ -39,7 +39,7 @@ p{
 
 .portfolio_home{
     display: flex;
-    padding: 140px 60px;
+    padding: 100px 60px;
     align-items: center;
     justify-content: center;
 }
@@ -590,7 +590,7 @@ footer{
     }
     
     /*subs page*/
-    .sub, .sub3, portfolio_home{
+    .sub, .sub3, .portfolio_home{
         display: block;
         padding: 90px 30px;
     }
@@ -606,7 +606,7 @@ footer{
         flex-direction: column-reverse;
     }
 
-    .sub div, .sub2 div, .sub3 div{
+    .sub div, .sub2 div, .sub3 div, .portfolio_home div{
         width: 100%;
     }
     

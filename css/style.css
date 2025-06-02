@@ -585,9 +585,14 @@ footer{
     }
     
     /*subs page*/
-    .sub, .sub3, .portfolio_home{
+    .sub, .sub3{
         display: block;
         padding: 90px 30px;
+    }
+
+  .portfolio_home{
+        display: block;
+        padding: 30px 30px;
     }
 
     .sub4{

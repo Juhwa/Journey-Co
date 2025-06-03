@@ -372,6 +372,10 @@ nav ul{
     #check:checked~nav a{
         transform: translateY(0);
     }
+
+    .contact{
+    padding: 50px 20px 40px 20px;
+}
 }
 
 /* Dropdown Menu */

@@ -36,6 +36,10 @@ p{
     line-height: 1.8rem;
 }
 
+.lrKTG>.Dq4amc{
+    display: none;
+}
+
 .portfolio_home, .plan{
     display: flex;
     padding: 100px 60px;

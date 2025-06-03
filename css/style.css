@@ -28,7 +28,6 @@ h3{
 h4{
     font-size: 34px; 
     font-weight: 600;
-    text-transform: uppercase;
 }
 
 p{
@@ -37,7 +36,7 @@ p{
     line-height: 1.8rem;
 }
 
-.portfolio_home{
+.portfolio_home, .plan{
     display: flex;
     padding: 100px 60px;
     align-items: center;
@@ -48,9 +47,36 @@ p{
     width: 50%;
 }
 
+.portfolio_home h4{
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 0;
+}
+
+.portfolio_home p{
+    font-size: 1.1rem;
+    margin-bottom: 60px;
+}
+
 .portfolio_home div img{
     width: 90%;
     padding-left: 80px;
+}
+
+.plan{
+    display: block;
+    padding: 0 60px 0 60px;
+    text-align: center;
+}
+
+.plan h4{
+    font-weight: 600;
+    font-size: 32px;
+    margin-bottom: 0;
+}
+
+.plan p{
+    font-size: 1.1rem;
 }
 
 /*subs page*/
@@ -427,15 +453,36 @@ nav ul{
     width: 100%;
 }
 
+.services_landing{
+    display: flex;
+    padding: 0;
+    text-align: left;
+    padding: 0 60px 0 60px;
+}
+
 .services_home{
     width: 33.33%;
     padding: 0;
 }
 
-.web{
-    padding: 60px 30px 0 30px;
-    background-color: #ff;
+.price{
+    width: 25%;
+    padding: 0;
 }
+
+.web, .service1{
+    padding: 60px 30px 0 30px;
+    background-color: #fff;
+}
+
+.service1 h3{
+ font-weight: 300;
+ margin-bottom: 0;
+}
+
+.service1 p{
+    font-size: 1.1rem;
+   }
 
 .graphic{
     padding: 60px 30px;
@@ -470,6 +517,18 @@ nav ul{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
+    color: #fff;
+}
+
+.blog_home_pic h1{
+    font-size: 3.8rem;
+    margin-top: 20px;
+    font-weight: 600;
+}
+
+.blog_home_pic p{
+    font-size: 18px;
+    font-weight: 100 !important;
 }
 
 .blog_home_link{
@@ -659,16 +718,16 @@ footer{
         padding: 0;
     }
 
-    .services{
+    .services, .services_landing{
         display: block;
     }
     
-    .services_home{
+    .services_home, .price{
         width: 100%;
         padding: 0;
     }
 
-    .web, .graphic,  .social{
+    .web, .graphic,  .social, .service1{
         padding: 40px 30px;
     }
 

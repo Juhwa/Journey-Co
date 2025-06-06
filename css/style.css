@@ -317,22 +317,18 @@ nav ul{
     h1{
     font-size: 3rem;
     line-height: 3.5rem;
-    font-weight: 600;
 }
 
 h2{
     font-size: 30px;
-    font-weight: 400;
 }
 
 h3{
     font-size: 1.2rem; 
-    font-weight: 600;
 }
 
 h4{
     font-size: 30px; 
-    font-weight: 600;
 }
     .icons{
         display: inline-flex;

@@ -10,7 +10,8 @@ main{
 }
 
 h1{
-    font-size: 36px;
+    font-size: 3.9rem;
+    line-height: 5rem;
     font-weight: 600;
 }
 

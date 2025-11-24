@@ -531,9 +531,14 @@ h4{
     padding: 0;
 }
 
-.web, .service1{
-    padding: 60px 30px 0 30px;
+.web{
+    padding: 60px 30px;
     background-color: #E9E9E9;
+}
+
+.service1{
+    padding: 60px 30px 0 30px;
+    background-color: #fff;
 }
 
 .service1 h3{

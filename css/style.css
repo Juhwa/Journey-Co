@@ -782,8 +782,11 @@ footer{
 
 
 @media (max-width: 768px) {
-.header::before{
-    background-color: rgba(0, 0, 0, 0.5);
+.header{
+    background: url(../img/headerbanner_nov242025_mobile.jpg);
+    background-size: cover;
+    background-position: center right 0;
+    background-repeat: no-repeat;
 }
     
     .blog_home_pic h1{

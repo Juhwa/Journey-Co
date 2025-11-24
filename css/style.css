@@ -478,7 +478,7 @@ h4{
     background-repeat: no-repeat;
     display: flex;
     color: #fff;
-    padding: 200px 60px;
+    padding: 200px 60px 150px 60px;
 }
 
 .blog{
@@ -782,6 +782,10 @@ footer{
 
 
 @media (max-width: 768px) {
+header::before{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+    
     .blog_home_pic h1{
     font-size: 3rem;
 }

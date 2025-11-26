@@ -391,7 +391,7 @@ h4{
         display: block;
     }
     header{
-    align-items: center;
+    align-items: left;
     z-index: 100;
     background: rgba(0,0,0,.8);
 }
@@ -404,7 +404,7 @@ h4{
         height: 0;
         background: rgba(0,0,0,.8);
         backdrop-filter: blur(50px);
-        box-shadow: 1 .5rem 1rem rgba(0,0,0,.1);
+        /*box-shadow: 1 .5rem 1rem rgba(0,0,0,.1);*/
         overflow: hidden;
         transition: .3s ease;
     }

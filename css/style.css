@@ -128,13 +128,16 @@ p{
 .sub{
     display: flex;
     padding: 140px 60px;
-    background: url(../img/bg_webdesign.jpg);
+    background: url(/img/headerbanner_webdesign_nov242025.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
     align-items: center;
     justify-content: center;
 }
 
 .sub div{
     width: 50%;
+    color: #fff;
 }
 
 .sub div img{

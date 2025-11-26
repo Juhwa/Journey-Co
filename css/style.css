@@ -539,6 +539,7 @@ h4{
 
 .t1{
     width: 50%;
+    padding: 0 20px;
 }
 
 .services_home{
@@ -820,6 +821,8 @@ footer{
 
 .t1{
     width: 100%;
+    padding: 0;
+}
 }
     
     .blog_home_pic h1{

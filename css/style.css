@@ -530,6 +530,16 @@ h4{
     justify-content: space-evenly;
 }
 
+.tesimonial{
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+.t1{
+    width: 50%;
+}
+
 .services_home{
     width: 33.33%;
     padding: 0;
@@ -800,6 +810,14 @@ footer{
     background-size: cover;
     background-position: center right 0;
     background-repeat: no-repeat;
+}
+
+    .tesimonial{
+    display: block;
+}
+
+.t1{
+    width: 100%;
 }
     
     .blog_home_pic h1{

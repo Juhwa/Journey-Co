@@ -851,6 +851,11 @@ footer{
         flex-direction: column-reverse;
         padding: 40px 30px;
     }
+
+    .accordion {
+    max-width: 100%;
+    padding: 30px;
+  }
     
     .sub4 div{
         width: 100%;

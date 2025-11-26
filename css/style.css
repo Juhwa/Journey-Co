@@ -849,7 +849,7 @@ footer{
         display: flex;
         flex-direction: row;
         flex-direction: column-reverse;
-        padding: 80px 30px;
+        padding: 40px 30px;
     }
     
     .sub4 div{

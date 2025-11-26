@@ -41,8 +41,56 @@ p{
     line-height: 1.8rem;
 }
 
-.lrKTG>.Dq4amc, .xpWfed{
-    display: none;
+/* Container */
+.testimonial-slider {
+  width: 100%;
+  max-width: 600px;
+  margin: 50px auto;
+  overflow: hidden;
+  border-radius: 12px;
+  background: #fff;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* Slides wrapper */
+.slides {
+  display: flex;
+  width: 300%;
+  animation: slide 12s infinite;
+}
+
+/* Each slide */
+.slide {
+  width: 100%;
+  padding: 40px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.quote {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  font-style: italic;
+  color: #333;
+}
+
+.author {
+  margin-top: 20px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #555;
+}
+
+/* Auto sliding animation */
+@keyframes slide {
+  0% { transform: translateX(0); }
+  33% { transform: translateX(0); }
+
+  38% { transform: translateX(-100%); }
+  71% { transform: translateX(-100%); }
+
+  76% { transform: translateX(-200%); }
+  100% { transform: translateX(-200%); }
 }
 
 .whoserve1{

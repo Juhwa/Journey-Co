@@ -287,7 +287,6 @@ header{
     justify-content: space-between;
     align-items: center;
     z-index: 100;
-    background: none;
     background: rgba(0,0,0,.5);
 }
 

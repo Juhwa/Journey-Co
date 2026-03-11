@@ -327,7 +327,7 @@ nav a{
     margin-left: 2.5rem;
     text-decoration: none;
     color:  #020202;
-    font-weignt: 600;
+    font-weignt: 500 !important;
 }
 
 .nav a:hover {

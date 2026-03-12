@@ -82,7 +82,7 @@ p{
 }
 
 .portfolio_home p img{
-    margin-left: -80px;
+    margin-left: -80px !important;
 }
 
 .portfolio_home div img, .whoserve2 div img{
@@ -373,6 +373,10 @@ h4{
     font-size: 30px; 
 }
 
+    .portfolio_home p img{
+    margin-left: 0px;
+}
+
 .button{
    display: block;
    margin-top: 20px;
@@ -589,10 +593,6 @@ h4{
     padding: 60px 30px;
     background-color: #F9FEFA;
     border: 15px;
-}
-
-.portfolio_home p img{
-    margin-left: 0px;
 }
 
 /*accordian*/

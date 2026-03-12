@@ -548,7 +548,7 @@ h4{
 
 .services_home{
     width: 33.33%;
-    padding: 20px 10px 0 10px;
+    padding: 20px 15px 0 10px;
 }
 
 .price{
@@ -558,7 +558,8 @@ h4{
 
 .web{
     padding: 60px 30px 31px 30px;
-    background-color: #F2FDF5;
+    background-color: #F9FEFA;
+    border: 15px;
 }
 
 .service1{
@@ -577,11 +578,13 @@ h4{
 .graphic{
     padding: 60px 30px;
     background-color: #F9FEFA;
+    border: 15px;
 }
 
 .social{
     padding: 60px 30px;
-    background-color: #F2FDF5;
+    background-color: #F9FEFA;
+    border: 15px;
 }
 
 /*accordian*/

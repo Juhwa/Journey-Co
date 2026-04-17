@@ -671,6 +671,7 @@ h4{
 
 .title_header{
     width: 60%;
+    padding-right: 5%;
 }
 
 .empty{
@@ -945,6 +946,7 @@ footer{
 
     .title_header{
         width: 100%;
+        padding-right: 0;
     }
 
     .blog_home{

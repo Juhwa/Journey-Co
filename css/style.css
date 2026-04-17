@@ -675,6 +675,8 @@ h4{
 
 .empty{
     width: 40%;
+    background: #fff;
+    padding-top: 30px;
 }
 
 .blog_home_pic{

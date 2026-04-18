@@ -827,7 +827,6 @@ footer{
 
 @media (max-width: 768px) {
 .header{
-    background: url(../img/jncheaderbanner_mobile.webp);
     background-size: cover;
     background-position: center right 0;
     background-repeat: no-repeat;

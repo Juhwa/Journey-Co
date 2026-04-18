@@ -491,12 +491,12 @@ h4{
 }
 
 .header{
-    background: url(../img/journeynco_header_marketing.webp);
+    background: url(../img/journeynco_header_roofing.webp);
     background-size: cover;
     background-position: center right 0;
     background-repeat: no-repeat;
     display: flex;
-    color: #020202;
+    color: #fff;
     padding: 170px 60px 150px 100px;
 }
 
